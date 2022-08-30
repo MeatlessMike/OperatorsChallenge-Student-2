@@ -139,10 +139,11 @@ class ViewController: UIViewController, UITextFieldDelegate, SFSafariViewControl
         
         if sender.velocity > 0 {
             // MARK: - Stretch #2 - Increase
+        
             
             
             
-        } else {
+       tickets += 1 } else { tickets -= 1
             // MARK: - Stretch #2 - Decrease
             
             
