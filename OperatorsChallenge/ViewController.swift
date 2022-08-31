@@ -160,13 +160,14 @@ class ViewController: UIViewController, UITextFieldDelegate, SFSafariViewControl
         
         // MARK: - Stretch #3
         
+        var unchartedURL = "https://www.unchartedlearning.org/"
+        var fullURLPath = unchartedURL + urlAddOn
         
-        
-        // TODO: - Stretch #3
-//        let myUrl = URL(string: fullURLPath)
-//        let svc = SFSafariViewController(url: myUrl!)
-//        svc.delegate = self
-//        self.present(svc, animated: true, completion: nil)
+        //TODO: - Stretch #3
+        let myUrl = URL(string: fullURLPath)
+        let svc = SFSafariViewController(url: myUrl!)
+        svc.delegate = self
+        self.present(svc, animated: true, completion: nil)
 
     }
 }
